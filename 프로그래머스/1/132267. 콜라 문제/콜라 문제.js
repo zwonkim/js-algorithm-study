@@ -3,14 +3,18 @@ function solution(a, b, n) {
     let remainder = 0
     
     let cnt = 0
-    while(n >= 2) { 
-        quotient = Math.floor(n / a) * b // 교환 가능한 콜라 갯수
-        if(quotient === 0) break
+    while(n > 0) {
+        quotient = Math.floor(n / a)
+        remainder = n % a
         
-        remainder = n % a // 교환 가능하고 남은 병
-        cnt += quotient 
-        n = quotient + remainder
+        console.log(remainder)
+        
+        cnt += quotient
+        // n = quotient + remainder
     }
     
-    return cnt
+    console.log(cnt)
 }
+
+// 빈병 갯수에서 a를 나눈 몫고가 나머지을 따로챙김
+// 

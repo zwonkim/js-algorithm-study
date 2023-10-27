@@ -1,6 +1,6 @@
 # [level 1] 숫자 짝꿍 - 131128 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131128#) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131128) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 6일 2:6:9
+2023년 10월 6일 2:7:8
 
 ### 문제 설명
 

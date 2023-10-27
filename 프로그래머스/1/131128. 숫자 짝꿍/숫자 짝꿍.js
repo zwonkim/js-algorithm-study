@@ -22,6 +22,5 @@ function solution(X, Y) {
 
     }
     
-    if(rst[0] === "0") rst = rst.substring(0, 1)
-    return rst + ""
+    return parseInt(rst) + ""
 }
